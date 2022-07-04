@@ -6,57 +6,25 @@
 
 @import "./layout/header";
 
-
-.main {
-    background: url(../img/frutasyverduras.jpg)no-repeat;
-    background-size: cover;
-    height: 80vh;
-    width: 100%;
-    h6 {
-        font-size: 18px;
-        font-weight: 500;
-        font-family: 'Montserrat', sans-serif;
-}
-h1{
-    font-size: 3.75rem;
-    font-family: 'Righteous', cursive;
-}
-
-p {
-    color: gray;
-    font-family: 'Montserrat', sans-serif;
+.carousel-inner {
     
-}
+    img{width: 100%;
+    max-height: 450px;}
 
-.mbtn1{
-    height: 50px;
-    width: 25%;
-    outline: none;
-    border: none;
-    color: white;
-    font-weight: 600;
-    background: purple;
-    border-radius: 50px;
-    transition: all 0.5s;
-    &:hover{
-        color: palevioletred;
+    .carousel-caption{
+        position: absolute;
+        left: -30%;
+        top: 190px;
+        color: black;
+        h5, p {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+        }
+
+        h1, h2{
+            font-family: 'Righteous', cursive;
+        }
+
+
     }
-    
-}
-
-.mbtn2{
-    height: 50px;
-    width: 25%;
-    outline: none;
-    background-color: transparent;
-    color: purple;
-    font-weight: 600;
-    border: 1px solid purple;
-    border-radius: 50px;
-    transition: all 0.5s;
-    &:hover{
-        color: palevioletred;
-    }
-}
-
 }
