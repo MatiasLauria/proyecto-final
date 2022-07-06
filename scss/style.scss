@@ -6,33 +6,79 @@
 
 @import "./layout/header";
 @import "./layout/carousel";
+@import "./layout/section2";
 
 
-.welcome{
-    background-color: purple;
-.line2 { height: 6px;
+.product {
+    
+    
+    .line {
+    height: 6px;
 width: 30%;
-background-color: white;
+background-color: purple;
 display: inline-block;
 }
 
-.card {
-    border: none;
-    border-radius: 0;
-    cursor: pointer;
-
-}
-
-i{
-    font-size: 45px;
-    color: purple;
-
-}
-
-h3{
+h2{
     font-weight: lighter;
     padding: 10px 0px;
+    
+}
+p{
+    font-family: 'Montserrat', sans-serif;
 }
 
+.star{
+    text-align: end;
+    color: purple;
 }
+
+.card{
+    border: 1px solid purple;
+    &:hover{
+        border: 2px solid purple
+    }
+
+
+                        .head1{
+                                 font-weight: 400;
+                                    margin: 0;
+                                                 }
+    
+        .per1{
+        color: gray;
+                }
+
+       .btnc {
+    height: 50px;
+    width: 150px;
+    outline: none;
+    border: none;
+    color: white;
+    background: purple;
+    border-radius: 30px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+
+    &:hover{
+        outline: none;
+        border: 1px solid rgb palevioletred;
+        color: rgb palevioletred;
+        background: palevioletred;
+        border-radius: 30px;
+    }
+    }
+
+
+}
+}
+
+
+
+
+
+
+
+
 

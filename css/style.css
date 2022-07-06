@@ -45,6 +45,9 @@
     transition: all 0.5s; }
     .navbar .bi-cart:hover {
       color: palevioletred; }
+    @media screen and (max-width: 400px) {
+      .navbar .bi-cart {
+        display: none; } }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
   filter: invert(108%); }
@@ -81,3 +84,47 @@
   .welcome h3 {
     font-weight: lighter;
     padding: 10px 0px; }
+
+.product .line {
+  height: 6px;
+  width: 30%;
+  background-color: purple;
+  display: inline-block; }
+
+.product h2 {
+  font-weight: lighter;
+  padding: 10px 0px; }
+
+.product p {
+  font-family: 'Montserrat', sans-serif; }
+
+.product .star {
+  text-align: end;
+  color: purple; }
+
+.product .card {
+  border: 1px solid purple; }
+  .product .card:hover {
+    border: 2px solid purple; }
+  .product .card .head1 {
+    font-weight: 400;
+    margin: 0; }
+  .product .card .per1 {
+    color: gray; }
+  .product .card .btnc {
+    height: 50px;
+    width: 150px;
+    outline: none;
+    border: none;
+    color: white;
+    background: purple;
+    border-radius: 30px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s; }
+    .product .card .btnc:hover {
+      outline: none;
+      border: 1px solid rgb palevioletred;
+      color: rgb palevioletred;
+      background: palevioletred;
+      border-radius: 30px; }
