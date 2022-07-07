@@ -128,3 +128,21 @@
       color: rgb palevioletred;
       background: palevioletred;
       border-radius: 30px; }
+
+.product .btnc2 {
+  height: 50px;
+  width: 150px;
+  outline: none;
+  border: none;
+  color: white;
+  background: purple;
+  border-radius: 30px;
+  margin: 0 auto;
+  display: block;
+  transition: all 0.4s; }
+  .product .btnc2:hover {
+    outline: none;
+    border: 1px solid rgb palevioletred;
+    color: rgb palevioletred;
+    background: palevioletred;
+    border-radius: 30px; }
