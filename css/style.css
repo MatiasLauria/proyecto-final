@@ -170,3 +170,28 @@
     transition: all 0.5s; }
     .discount .cdbtn .dbtn:hover {
       background-color: palevioletred; }
+
+.store h4 {
+  font-family: 'Righteous', cursive; }
+
+.store h2 {
+  font-family: 'Montserrat', sans-serif; }
+
+.store .line {
+  height: 6px;
+  width: 30%;
+  background-color: purple;
+  display: inline-block; }
+
+.store .card {
+  border-radius: 0;
+  border: none;
+  background: purple;
+  color: white;
+  transition: all 0.5s;
+  cursor: pointer; }
+  .store .card:hover {
+    background-color: #B762C1; }
+
+.store i {
+  font-size: 45px; }
