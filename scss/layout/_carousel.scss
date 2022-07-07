@@ -1,6 +1,8 @@
 .carousel-control-prev-icon, .carousel-control-next-icon {
     filter: invert(108%);
 }
+
+.carousel-indicators{ display: none;}
 .carousel-inner {
     
     img{width: 100%;
@@ -19,9 +21,34 @@
         h1, h2{
             font-family: 'Righteous', cursive;
         }
+@media screen and (max-width: 800px) {
 
+    position: absolute;
+        left: -30%;
+        top: 100px;
+}
 
+@media screen and (max-width: 700px) {
+    position: absolute;
+        left: -30%;
+        top: 100px;
+h5,p{
+    display: none;
+}
+
+}   
+
+@media screen and (max-width: 572px){
+    position: absolute;
+    left: -30%;
+    top: 50px;
+    h1{
+        font-size: medium;
     }
+
+}
+
+}
 
     
 }

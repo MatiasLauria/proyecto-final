@@ -1,0 +1,47 @@
+.foot{
+    padding: 40px 0;
+
+background-color: purple;
+
+.social {
+    text-align: center;
+    padding-bottom: 25px;
+
+    a{
+        font-size: 25px;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        margin: 0 8px;
+        transition: all 0.5s;
+
+        &:hover{color: #B762C1;}
+    }
+}
+
+    p{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+.list{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+    text-align: center;
+
+    li{
+        display: inline-block;
+        padding: 0 15px;
+        cursor: pointer;
+    }
+}
+
+
+.copyright{
+    margin-top: 15px;
+    text-align: center;
+}
+
+}
