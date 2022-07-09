@@ -281,7 +281,8 @@
   .container-form p {
     margin-bottom: 30px;
     font-family: 'Montserrat', sans-serif;
-    color: gray; }
+    color: gray;
+    text-align: justify; }
   .container-form a {
     display: inline-block;
     text-decoration: none;
