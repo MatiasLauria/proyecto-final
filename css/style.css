@@ -107,6 +107,9 @@
     font-weight: lighter;
     padding: 10px 0px; }
 
+.product .titulo {
+  font-family: 'Righteous', cursive; }
+
 .product .line {
   height: 6px;
   width: 30%;
